@@ -1,2 +1,6 @@
 # Project exclude paths
 /target/
+.idea/libraries/
+.idea/modules.xml
+.idea/vcs.xml
+PartyninWeb.iml
