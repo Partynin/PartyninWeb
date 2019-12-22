@@ -24,9 +24,11 @@ public class Composition {
 
     }
 
-    public Composition(String titleOfComposition, int duration) {
+    public Composition(String titleOfComposition, int duration, Album album, Musician musician) {
         this.titleOfComposition = titleOfComposition;
         this.duration = duration;
+        this.album = album;
+        this.musician = musician;
     }
 
     public int getCompositionId() {
